@@ -64,7 +64,7 @@ class Vehicle {
     }
 
     public function toCsv() {
-        return $this->type . "," . $this->brand . "," . $this->price . "," . $this->availability . "," . $this->renter . "\n";
+        return $this->type . "," . $this->brand . "," . $this->model . "," . $this->price . "," . $this->availability . "," . $this->renter . "\n";
     }
 
     public static function getVehicles() {
