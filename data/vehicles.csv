@@ -1,0 +1,6 @@
+type,brand,model,price,availability,renter
+Scooter,Yamaha,NMAX,150.00,true,No one
+Bike,Giant,Defy Advanced,50.00,false,John Doe
+Scooter,Honda,PCX,120.00,true,No one
+Bike,Trek,Domane,45.00,true,No one
+Scooter,Kymco,Like 150,100.00,false,Jane Smith

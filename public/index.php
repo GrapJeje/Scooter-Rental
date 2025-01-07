@@ -65,22 +65,12 @@
     <main>
         <h2>Available Vehicles</h2>
 
-        <!-- Example of a vehicle card -->
-        <div class="vehicle-card">
-            <h3>Scooter - Yamaha NMAX</h3>
-            <p><strong>Price per Month:</strong> $150</p>
-            <p><strong>Availability:</strong> Available</p>
-            <a href="#" class="rent-button">Rent Now</a>
-        </div>
+        <?php
+        require_once('../app/Http/Controllers/VehiclesController.php');
 
-        <div class="vehicle-card">
-            <h3>Bike - Gazelle Ultimate</h3>
-            <p><strong>Price per Month:</strong> $50</p>
-            <p><strong>Availability:</strong> Not Available</p>
-            <a href="#" class="rent-button" style="background-color: #ccc; cursor: not-allowed;">Not Available</a>
-        </div>
-
-        <!-- Add more vehicles here -->
+        $controller = new VehiclesController();
+        $controller->showVehicles();
+        ?>
 
     </main>
 
