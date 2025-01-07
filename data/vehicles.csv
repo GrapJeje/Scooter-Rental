@@ -1,6 +1,21 @@
-type,brand,model,price,availability,renter
-Scooter,Yamaha,NMAX,150.00,true,No one
-Bike,Giant,Defy Advanced,50.00,false,John Doe
-Scooter,Honda,PCX,120.00,true,No one
-Bike,Trek,Domane,45.00,true,No one
-Scooter,Kymco,Like 150,100.00,false,Jane Smith
+id,type,brand,model,price,availability,renter
+0,Scooter,Yamaha,NMAX,150.00,false,Jason
+1,Bike,Giant,"Defy Advanced",50.00,false,"John Doe"
+2,Scooter,Honda,PCX,120.00,true,-
+3,Bike,Trek,Domane,45.00,true,-
+4,Scooter,Kymco,"Like 150",100.00,true,-
+5,Bike,Specialized,Tarmac,60.00,true,-
+6,Scooter,Vespa,Primavera,180.00,true,-
+7,Bike,Scott,Addict,55.00,false,"Jane Smith"
+8,Scooter,Piaggio,Liberty,110.00,true,-
+9,Bike,Cannondale,Synapse,50.00,false,"Mike Brown"
+10,Scooter,Honda,SH150i,130.00,true,-
+11,Bike,Giant,Contend,40.00,true,-
+12,Scooter,Yamaha,Aerox,140.00,true,-
+13,Bike,Specialized,Roubaix,70.00,false,"Emily Davis"
+14,Scooter,Kymco,Agility,90.00,true,-
+15,Bike,Trek,Checkpoint,65.00,true,-
+16,Scooter,Piaggio,Beverly,160.00,true,-
+17,Bike,Scott,Speedster,45.00,true,-
+18,Scooter,Vespa,GTS,200.00,false,"Anna Lee"
+19,Bike,Cannondale,Caad,50.00,true,-
